@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio>
 
 /**
  * main - print lowercase and uppercase a-zA-Z using putchar
@@ -16,7 +16,6 @@ int main(void)
 	}
 	while (upper <= 'Z') /*print uppercase A-Z*/
 	{
-		
 		putchar(upper);
 		upper++;
 	}

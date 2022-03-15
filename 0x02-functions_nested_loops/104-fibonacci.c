@@ -21,7 +21,7 @@ int main(void)
 		sum = a + b;
 		a = b;
 		b = sum;
-		printf(", %;u", sum);
+		printf(", %lu", sum);
 	}
 	a_head = a / 1000000000; /* break larger num into 2 parts */
 	a_tail = a % 1000000000;
@@ -32,7 +32,7 @@ int main(void)
 	{
 		overflow = (a_tail + b_tail) / 1000000000;
 		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
-		sum_head = (a_head + h_head) + overflow;
+		sum_head = (a_head + b_head) + overflow;
 
 		printf(", %lu%lu", sum_head, sum_tail);
 

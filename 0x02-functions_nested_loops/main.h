@@ -53,7 +53,7 @@ int print_sign(int n);
  * Return: absolute value
  */
 
-int _abs(int);
+int _abs(int n);
 
 /**
  * print_last_digit - print last digit of integer
@@ -61,7 +61,7 @@ int _abs(int);
  * Return: last digit of number
  */
 
-int print_last_digit(int);
+int print_last_digit(int n);
 
 /**
  * jack_bauer - print every minute of a day
@@ -97,6 +97,6 @@ void print_to_98(int n);
  * @n: integer argument
  */
 
-void print_times_table(void);
+void print_times_table(int n);
 
 #endif

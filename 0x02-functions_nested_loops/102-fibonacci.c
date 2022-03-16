@@ -15,7 +15,7 @@ int main(void)
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 48; c++)
 	{
-		fn = a + b;
+		fn = n1 + n2;
 		n1 = n2;
 		n2 = fn;
 		printf(", %ld", fn);

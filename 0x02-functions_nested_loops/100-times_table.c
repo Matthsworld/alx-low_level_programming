@@ -30,13 +30,13 @@ void print_times_table(int n)
 				else if (product <= 99)
 				{
 					_putchar(32);
-					_putchar(48 + (product / 10));							
+					_putchar(48 + (product / 10));
 					_putchar(48 + (product % 10));
 				}
 				else
 				{
 					_putchar(48 + ((product / 100) % 10));
-					_putchar(48 + ((product / 10) % 10));						
+					_putchar(48 + ((product / 10) % 10));
 					_putchar('0' + (product % 10));
 				}
 			}

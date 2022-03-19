@@ -1,11 +1,11 @@
-#More functions, more nested loops
-###Requirements
+# More functions, more nested loops
+### Requirements
 * C programming
 * Ubuntu '20.04' LTS
 * gcc
-###Synopsis
+### Synopsis
 Aims at learning coding and concepts 
-###Concepts I gained a deeper understanding of include:
+### Concepts I gained a deeper understanding of include:
 * nested loops and how to use them
 * functions and how to use functions
 * difference between a declaration and a definition of a function
@@ -13,7 +13,7 @@ Aims at learning coding and concepts
 * scope of variables
 * gcc flags -Wall -Werror -pedantic -Wextra
 * header files and how to use them with #include
-###Description of what each file does:
+### Description of what each file does:
 0. a function that checks for uppercase character
 1. a function that checks for a digit '0 - 9'
 2. a function that multiples two integers
@@ -27,5 +27,5 @@ Aims at learning coding and concepts
 10. a function that prints a triangle with # based on size argument
 11. a program that finds and prints the largest prime factor of the number 612852475143
 12. a function that prints an integer
-##Author
+## Author
 * Matthsworld

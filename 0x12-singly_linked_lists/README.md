@@ -48,7 +48,7 @@ It`s a function that prints a sentence before the main function is executed.
 
 
 ------------
-#### 101-hello_holberton.asm
+#### 101-hello_ALX.asm
 It`s 64-bit program in assembly that prints "Hello, Holberton", followed by a new line.
 
 ------------
